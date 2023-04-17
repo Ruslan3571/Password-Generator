@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { PasswordServise } from '../services/PasswordServise';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function PasswordGenerator() {
   let [state, setState] = useState({
@@ -36,6 +38,14 @@ function PasswordGenerator() {
     setState({ ...state, generatedPassword: thePassword });
   };
 
+  let copyToClipboard = () => {
+    const passwordInput = document.querySelector(
+      'input[name="generatedPassword"]'
+    );
+    navigator.clipboard.writeText(passwordInput.value);
+    toast.success('Код успішно скопійований');
+  };
+
   return (
     <React.Fragment>
       <div className="container mt-5">
@@ -58,7 +68,11 @@ function PasswordGenerator() {
                         className="form-control"
                         placeholder="Generated Password"
                       />
-                      <span className=" input-group-text">
+                      <span
+                        onClick={() => copyToClipboard()}
+                        style={{ cursor: 'pointer' }}
+                        className=" input-group-text"
+                      >
                         <i className="fa fa-clipboard"></i>
                       </span>
                     </div>
@@ -162,6 +176,7 @@ function PasswordGenerator() {
           </div>
         </div>
         <div className="style-background"></div>
+        <ToastContainer />
       </div>
     </React.Fragment>
   );
