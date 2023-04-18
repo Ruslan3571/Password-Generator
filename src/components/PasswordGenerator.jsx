@@ -48,9 +48,9 @@ function PasswordGenerator() {
 
   return (
     <React.Fragment>
-      <div className="container mt-5">
+      <div className="container mt-5" style={{ position: 'relative' }}>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-sm-12 col-md-4">
             <div className="card shadow-lg">
               <div className="card-header bg-warning p-3">
                 <p className="h4">Password Generator</p>
