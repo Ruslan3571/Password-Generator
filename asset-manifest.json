@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Password-Generator/static/css/main.266ddcda.css",
-    "main.js": "/Password-Generator/static/js/main.9ea3fdac.js",
+    "main.css": "/Password-Generator/static/css/main.49d728f5.css",
+    "main.js": "/Password-Generator/static/js/main.9936aaa9.js",
     "static/media/fa-solid-900.ttf": "/Password-Generator/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/Password-Generator/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/fa-solid-900.woff2": "/Password-Generator/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
@@ -11,11 +11,11 @@
     "static/media/fa-v4compatibility.ttf": "/Password-Generator/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/Password-Generator/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/Password-Generator/index.html",
-    "main.266ddcda.css.map": "/Password-Generator/static/css/main.266ddcda.css.map",
-    "main.9ea3fdac.js.map": "/Password-Generator/static/js/main.9ea3fdac.js.map"
+    "main.49d728f5.css.map": "/Password-Generator/static/css/main.49d728f5.css.map",
+    "main.9936aaa9.js.map": "/Password-Generator/static/js/main.9936aaa9.js.map"
   },
   "entrypoints": [
-    "static/css/main.266ddcda.css",
-    "static/js/main.9ea3fdac.js"
+    "static/css/main.49d728f5.css",
+    "static/js/main.9936aaa9.js"
   ]
 }
